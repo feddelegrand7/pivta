@@ -1,6 +1,16 @@
-#' <Add Title>
+#' Interactive pivot table for CSV and JSON data
 #'
-#' <Add Description>
+#' @description displays a pivot table, plus other data analysis tools in the form of a widget
+#'
+#' @param dsource optional. Allows the user to specify ex-ante the location of the csv/json data frame.
+#'
+#' @param sep the csv data frame separator. Defaults to comma (","). Will be ignored if data is json.
+#'
+#' @param report optional. Allows the user to specify ex-ante the location of the json report file.
+#'
+#' @examples
+#'
+#'
 #'
 #' @import htmlwidgets
 #'
@@ -8,8 +18,8 @@
 #'
 
 pivta <- function(dsource = "",
-                  report = "",
                   sep = ",",
+                  report = "",
                   width = NULL,
                   ...,
                   height = NULL) {
