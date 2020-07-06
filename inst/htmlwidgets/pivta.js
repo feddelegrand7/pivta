@@ -20,7 +20,8 @@ HTMLWidgets.widget({
             report: {
             dataSource: {
                 filename: x.dsource,
-                report: x.report
+                report: x.report,
+                fieldSeparator: x.sep
             }
         }
             });
