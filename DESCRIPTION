@@ -14,3 +14,9 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/feddelegrand7/pivta
+BugReports: https://github.com/feddelegrand7/pivta/issues
