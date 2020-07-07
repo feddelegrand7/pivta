@@ -11,6 +11,35 @@
 #' @examples
 #'
 #'
+#' if (interactive()) {
+#'
+#' # Using pivta() within a Shiny application
+#'
+#' ui <- fluidPage(
+#'
+#' pivtaOutput(outputId = "pivot_table")
+#'
+#' )
+#'
+#' server <- function(input, output) {
+#'
+#'
+#' output$pivot_table <- renderPivta({
+#'
+#' pivta()
+#'
+#'
+#' })
+#'
+#'
+#' }
+#'
+#'
+#' shinyApp(ui = ui, server = server)
+#'
+#'
+#' }
+#'
 #'
 #' @import htmlwidgets
 #'
