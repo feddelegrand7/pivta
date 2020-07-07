@@ -4,12 +4,14 @@
 # pivta
 
 `pivta` is an R wrapper of the
-[WebDataRocks](https://www.webdatarocks.com/). The package allows to
-work with an interactive pivot table among other data analysis features
-through an HTML Widget. The library supports CSV and JSON data. **Note
-that this is a free version of the WebDataRocks JavaScript library, as
-such the data file uploaded should not exceed 1MB)**. Nonetheless,
-that’s fair for most modeste data sets
+[WebDataRocks](https://www.webdatarocks.com/) JavaScript library. The
+package allows to implement an interactive pivot table among other data
+analysis features throughout an HTML Widget.
+
+The library supports CSV and JSON data. **Note that this is a free
+version of the WebDataRocks library, as such the data file uploaded
+should not exceed 1MB)**. Nonetheless, that’s fair for most modest data
+sets
 
 You can install the development version of `pivta` from Github using:
 

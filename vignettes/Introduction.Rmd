@@ -1,19 +1,18 @@
 ---
-output: github_document
+title: "Introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
+  comment = "#>"
 )
 ```
-
-# pivta
 
 `pivta` is an R wrapper of the [WebDataRocks](https://www.webdatarocks.com/) JavaScript library. The package allows to implement an interactive pivot table among other data analysis features throughout an HTML Widget. 
 
