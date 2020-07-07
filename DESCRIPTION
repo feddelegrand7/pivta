@@ -1,14 +1,15 @@
 Package: pivta
-Title: What the Package Does (One Line, Title Case)
+Title: Create an Interactive Pivot Table with Data Analysis Tools
 Version: 0.1.0
 Authors@R: 
     person(given = "Mohamed El Fodil",
            family = "Ihaddaden",
            role = c("aut", "cre"),
            email = "ihaddaden.fodeil@gmail.com")
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Allows the user create an interactive pivot table, along with many 
+    data analysis features using the 'WebDataRocks' 'JavaScript' library and 'htmlwidgets' package. 
+    Two types of data are supported: 'CSV' and 'JSON'. See <https://www.webdatarocks.com/>.
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

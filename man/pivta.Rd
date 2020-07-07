@@ -2,10 +2,22 @@
 % Please edit documentation in R/pivta.R
 \name{pivta}
 \alias{pivta}
-\title{<Add Title>}
+\title{webdatarocks.js htmlwidget}
 \usage{
-pivta(source = "", report = "", width = NULL, height = NULL, elementId = NULL)
+pivta(dsource = "", sep = ",", report = "", width = NULL, ..., height = NULL)
+}
+\arguments{
+\item{dsource}{optional. Allows the user to specify ex-ante the location of the csv/json data frame.}
+
+\item{sep}{the csv data frame separator. Defaults to comma (","). Will be ignored if data is json.}
+
+\item{report}{optional. Allows the user to specify ex-ante the location of the json report file.}
 }
 \description{
-<Add Description>
+use webdatarocks.js in R to display a pivot table, plus other data analysis tools in the form of a widget
+}
+\examples{
+
+
+
 }

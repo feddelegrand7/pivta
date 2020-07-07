@@ -1,6 +1,6 @@
-#' Interactive pivot table for CSV and JSON data
+#' webdatarocks.js htmlwidget
 #'
-#' @description displays a pivot table, plus other data analysis tools in the form of a widget
+#' @description use webdatarocks.js in R to display a pivot table, plus other data analysis tools in the form of a widget
 #'
 #' @param dsource optional. Allows the user to specify ex-ante the location of the csv/json data frame.
 #'
@@ -59,7 +59,7 @@ pivta <- function(dsource = "",
 #' @name pivta-shiny
 #'
 #' @export
-pivtaOutput <- function(outputId, width = '100%', height = '400px'){
+pivtaOutput <- function(outputId,  width = '100%', height = '400px'){
   htmlwidgets::shinyWidgetOutput(outputId, 'pivta', width, height, package = 'pivta')
 }
 
