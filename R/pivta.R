@@ -8,6 +8,10 @@
 #'
 #' @param report optional. Allows the user to specify ex-ante the location of the json report file.
 #'
+#' @param width the width of the widget.
+#'
+#' @param height the height of the widget.
+#'
 #' @examples
 #'
 #'
@@ -50,13 +54,11 @@ pivta <- function(dsource = "",
                   sep = ",",
                   report = "",
                   width = NULL,
-                  ...,
                   height = NULL) {
 
   # forward options using x
   x = list(
     dsource = dsource,
-    ...,
     report = report,
     sep = sep
   )

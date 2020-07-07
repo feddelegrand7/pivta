@@ -20,3 +20,5 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/feddelegrand7/pivta
 BugReports: https://github.com/feddelegrand7/pivta/issues
+Imports: 
+    htmlwidgets

@@ -67,6 +67,7 @@ We can make some cool analysis:
 
 
 ![](https://media.giphy.com/media/Wmo8a53B8bM4EOldtt/giphy.gif)
+
 You can easily change the aggregation measure. Here let's take a look at the mean: 
 
 ![](https://media.giphy.com/media/fwVP8P3rRcon9brLBt/giphy.gif)

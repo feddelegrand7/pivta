@@ -4,7 +4,7 @@
 \alias{pivta}
 \title{webdatarocks.js htmlwidget}
 \usage{
-pivta(dsource = "", sep = ",", report = "", width = NULL, ..., height = NULL)
+pivta(dsource = "", sep = ",", report = "", width = NULL, height = NULL)
 }
 \arguments{
 \item{dsource}{optional. Allows the user to specify ex-ante the location of the csv/json data frame.}
@@ -12,12 +12,45 @@ pivta(dsource = "", sep = ",", report = "", width = NULL, ..., height = NULL)
 \item{sep}{the csv data frame separator. Defaults to comma (","). Will be ignored if data is json.}
 
 \item{report}{optional. Allows the user to specify ex-ante the location of the json report file.}
+
+\item{width}{the width of the widget.}
+
+\item{height}{the height of the widget.}
 }
 \description{
 use webdatarocks.js in R to display a pivot table, plus other data analysis tools in the form of a widget
 }
 \examples{
 
+
+if (interactive()) {
+
+# Using pivta() within a Shiny application
+
+ui <- fluidPage(
+
+pivtaOutput(outputId = "pivot_table")
+
+)
+
+server <- function(input, output) {
+
+
+output$pivot_table <- renderPivta({
+
+pivta()
+
+
+})
+
+
+}
+
+
+shinyApp(ui = ui, server = server)
+
+
+}
 
 
 }
