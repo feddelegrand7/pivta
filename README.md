@@ -64,7 +64,7 @@ We can make some cool analysis:
 ![](man/figures/pivexample2.gif)
 
 You can easily change the aggregation measure. Here let’s take a look at
-the mean (here Average):
+the Average:
 
 ![](man/figures/pivexample3.gif)
 
