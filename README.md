@@ -57,25 +57,25 @@ library(pivta)
 pivta()
 ```
 
-![](https://media.giphy.com/media/J1jfLCcDVlmqDOQgjr/giphy.gif)
+![](man/figures/pivexample1.gif)
 
 We can make some cool analysis:
 
-![](https://media.giphy.com/media/Wmo8a53B8bM4EOldtt/giphy.gif)
+![](man/figures/pivexample2.gif)
 
 You can easily change the aggregation measure. Here let’s take a look at
-the mean:
+the mean (here Average):
 
-![](https://media.giphy.com/media/fwVP8P3rRcon9brLBt/giphy.gif)
+![](man/figures/pivexample3.gif)
 
 Too many numbers after the decimal ? no worry, it’s possible and easy to
 format the results:
 
-![](https://media.giphy.com/media/XeSvJs99krQfrVoDzA/giphy.gif)
+![](man/figures/pivexample4.gif)
 
 You can export your results into different format :
 
-![](https://media.giphy.com/media/TI4QjlXoud4diWT9e2/giphy.gif)
+![](man/figures/pivexample5.gif)
 
 The results can also be saved into a JSON file called **report**. If you
 want to retrieve the results the next time that you open your Shiny app
@@ -127,7 +127,7 @@ output$plt1 <- renderPlot({
 shinyApp(ui = ui, server = server)
 ```
 
-![](https://media.giphy.com/media/LSLBdr5OxENy4NdGhX/giphy.gif)
+![](man/figures/pivexample6.gif)
 
 Finally, feel free to try the other features provided by the
 WebDataRocks JS library. You can read the complete documentation

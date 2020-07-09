@@ -6,7 +6,7 @@ Authors@R:
            family = "Ihaddaden",
            role = c("aut", "cre"),
            email = "ihaddaden.fodeil@gmail.com")
-Description: Allows the user create an interactive pivot table, along with many 
+Description: Allows the user to create an interactive pivot table, along with many 
     data analysis features using the 'WebDataRocks' 'JavaScript' library and 'htmlwidgets' package. 
     Two types of data are supported: 'CSV' and 'JSON'. See <https://www.webdatarocks.com/>.
 License: file LICENSE
