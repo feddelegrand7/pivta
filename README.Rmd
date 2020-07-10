@@ -38,7 +38,7 @@ remotes::install_github("feddelegrand7/pivta")
 
 Just run `pivta()` and start playing ! The function has three main arguments:
 
-+ _source_: Optional. Allows you to specify ex-ante the location of the csv/json data frame, by providing a URL. 
++ _dsource_: Optional. Allows you to specify ex-ante the location of the csv/json data frame, by providing a URL. 
 + _sep_: The CSV data frame separator. Defaults to comma (","). Will be ignored if data is JSON.
 + _report_: Optional. Allows you to specify ex-ante the location of your JSON report file (see below). 
 
