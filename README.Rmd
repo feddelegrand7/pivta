@@ -15,9 +15,9 @@ knitr::opts_chunk$set(
 
 # pivta
 
-`pivta` is an R wrapper of the [WebDataRocks](https://www.webdatarocks.com/) JavaScript library. The package allows to implement an interactive pivot table among other data analysis features throughout an HTML Widget. 
+`pivta` is an R wrapper of the [WebDataRocks](https://www.webdatarocks.com/) JavaScript library. The package allows you to implement an interactive pivot table (among other data analysis features) throughout an HTML Widget. 
 
-The library supports CSV and JSON data. __Note that this is a free version of the WebDataRocks library, as such the data file uploaded should not exceed 1MB)__. Nonetheless, that's fair for most modest data sets  
+The library supports CSV and JSON data. __Note that this is a free version of the WebDataRocks library, as such the data file uploaded should not exceed 1MB__. Nonetheless, that's fair for most modest data sets  
 
 
 You can install the development version of `pivta` from Github using: 
@@ -36,7 +36,7 @@ remotes::install_github("feddelegrand7/pivta")
 
 # How to use pivta
 
-Just run `pivot()` and start playing ! The function has three main arguments:
+Just run `pivta()` and start playing ! The function has three main arguments:
 
 + _source_: Optional. Allows you to specify ex-ante the location of the csv/json data frame, by providing a URL. 
 + _sep_: The CSV data frame separator. Defaults to comma (","). Will be ignored if data is JSON.
