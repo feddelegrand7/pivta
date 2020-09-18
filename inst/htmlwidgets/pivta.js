@@ -29,7 +29,9 @@ HTMLWidgets.widget({
 
              grid: {
 
-                type: "flat"
+                type: "flat",
+                showTotals: "off",
+                showGrandTotals: "off"
 
              }
 
