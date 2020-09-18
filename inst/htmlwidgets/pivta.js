@@ -13,6 +13,8 @@ HTMLWidgets.widget({
 
       renderValue: function(x) {
 
+      if (x.report === ""){
+
 
       var pivot = new WebDataRocks({
 	          container: el.id,
@@ -20,10 +22,8 @@ HTMLWidgets.widget({
             report: {
             dataSource: {
                 filename: x.dsource,
-                report: x.report,
                 fieldSeparator: x.sep
             },
-
 
        options: {
 
@@ -37,6 +37,22 @@ HTMLWidgets.widget({
 
 
             }});
+
+
+      } else {
+
+
+
+    var pivot = new WebDataRocks({
+	          container: el.id,
+            toolbar: true,
+            report: x.report});
+
+
+
+      }
+
+
 
 
 
