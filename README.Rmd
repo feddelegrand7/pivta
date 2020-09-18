@@ -52,7 +52,6 @@ In Shiny, you'll have to use the `pivtaOutput()` and `renderPivta()` functions.
 
 Let's work with the [CSV](https://gist.githubusercontent.com/feddelegrand7/b366864aabf9653361f461cbf972d97c/raw/a62c4672f2f5824b2634a66c948e6258d7c65323/mpg.csv) file of the [mpg](https://ggplot2.tidyverse.org/reference/mpg.html) data frame. You can upload the file locally or specify its URL using the __source__ argument. 
 
-When loading a CSV file, the pivot table will by default aggregate the sum of the values of the first numeric column according to the first character column that it recognizes. 
 
 ```{r, eval=FALSE}
 library(pivta)
