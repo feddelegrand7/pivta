@@ -22,9 +22,21 @@ HTMLWidgets.widget({
                 filename: x.dsource,
                 report: x.report,
                 fieldSeparator: x.sep
-            }
-        }
-            });
+            },
+
+
+       options: {
+
+             grid: {
+
+                type: "flat"
+
+             }
+
+      }
+
+
+            }});
 
 
 
