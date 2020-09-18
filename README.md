@@ -47,10 +47,6 @@ file of the [mpg](https://ggplot2.tidyverse.org/reference/mpg.html) data
 frame. You can upload the file locally or specify its URL using the
 **source** argument.
 
-When loading a CSV file, the pivot table will by default aggregate the
-sum of the values of the first numeric column according to the first
-character column that it recognizes.
-
 ``` r
 library(pivta)
 
@@ -77,11 +73,10 @@ You can export your results into different format :
 
 ![](man/figures/pivexample5.gif)
 
-The results can also be saved into a JSON file called **report**. If you
-want to retrieve the results the next time that you open your Shiny app
-you can either upload it locally or store it remotely and provide a URL
-that points to the report (within the **report** argument of the
-`pivta()` function).
+The results can also be saved into a JSON file. If you want to retrieve
+the results the next time that you open your Shiny app you can either
+upload it locally or store it remotely and provide a URL that points to
+the report (within the **report** argument of the `pivta()` function).
 
 Below an example of the usage of `pivta()` on Shiny:
 
